@@ -1,0 +1,35 @@
+# Core
+pandas==2.1.4
+numpy==1.26.3
+scikit-learn==1.4.0
+scipy==1.11.4
+pyyaml==6.0.1
+
+# Data Validation
+great-expectations==0.18.8
+
+# Feature Store & DB
+sqlalchemy==2.0.25
+
+# Data Versioning
+dvc==3.39.0
+
+# Orchestration
+#apache-airflow==2.8.1
+prefect
+ 
+
+# Visualization / EDA
+matplotlib==3.8.2
+seaborn==0.13.2
+plotly==5.18.0
+
+ 
+
+# Utilities
+python-dotenv==1.0.0
+tqdm==4.66.1
+loguru==0.7.2
+click==8.1.7
+
+ 

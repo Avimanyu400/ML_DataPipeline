@@ -1,0 +1,26 @@
+{
+    "versions": {
+        "1.0.0": {
+            "columns": [
+                "user_id",
+                "product_id",
+                "category_encoded",
+                "brand_encoded",
+                "action_encoded",
+                "price_normalized",
+                "timestamp_normalized",
+                "interaction_score",
+                "user_activity_count",
+                "user_avg_score",
+                "item_activity_count",
+                "item_avg_score",
+                "user_category_count",
+                "user_item_similarity_score"
+            ],
+            "description": "Full feature set for recommendation model",
+            "file_path": "feature_store\\features_v1.0.0.csv",
+            "timestamp": "2026-01-26T12:56:57.899047"
+        }
+    },
+    "active_version": "1.0.0"
+}

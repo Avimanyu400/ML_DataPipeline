@@ -1,0 +1,290 @@
+2026-01-09 11:11:30,734 [ERROR] ipykernel.comm: No such comm target registered: jupyter.widget.control
+2026-01-09 11:11:30,745 [WARNING] Comm: No such comm: 34a8d9ab-79e7-4d33-97a9-b1c6518921ba
+2026-01-09 12:26:37,860 [ERROR] Ingestor: Pipeline failed: Missing product_catalog file: target_dir1/product_catalog.csv
+2026-01-09 12:28:04,117 [ERROR] Ingestor: Pipeline failed: Missing product_catalog file: target_dir1/product_catalog.csv
+2026-01-09 12:42:09,006 [ERROR] Ingestor: Pipeline failed: name 'file_name' is not defined
+2026-01-09 12:43:12,874 [INFO] Ingestor: Reading product_catalog from C:\Users\avima\DM4ML\recomart\raw_data\batch\product_catalog\2026\01\09
+2026-01-09 12:43:13,067 [ERROR] Ingestor: Pipeline failed: (psycopg2.errors.UndefinedColumn) column "product_name" of relation "product_catalog" does not exist
+LINE 1: ...SERT INTO dmmlschema.product_catalog (product_id, product_na...
+                                                             ^
+
+[SQL: INSERT INTO dmmlschema.product_catalog (product_id, product_name, category, price, rating, in_stock, brand) VALUES (%(product_id__0)s, %(product_name__0)s, %(category__0)s, %(price__0)s, %(rating__0)s, %(in_stock__0)s, %(brand__0)s), (%(product_id__1 ... 25593 characters truncated ... _name__199)s, %(category__199)s, %(price__199)s, %(rating__199)s, %(in_stock__199)s, %(brand__199)s)]
+[parameters: {'in_stock__0': True, 'brand__0': 'Dmart', 'rating__0': 3.6, 'category__0': 'Apparel', 'price__0': 651.96, 'product_name__0': 'Product_0', 'product_id__0': 'rm_000', 'in_stock__1': True, 'brand__1': 'Reliance', 'rating__1': 3.7, 'category__1': 'Food', 'price__1': 970.76, 'product_name__1': 'Product_1', 'product_id__1': 'rm_001', 'in_stock__2': True, 'brand__2': 'Brand Unknown', 'rating__2': 4.5, 'category__2': 'Electronics', 'price__2': 590.5, 'product_name__2': 'Product_2', 'product_id__2': 'rm_002', 'in_stock__3': False, 'brand__3': 'Brand Y', 'rating__3': 4.0, 'category__3': 'Books', 'price__3': 1090.78, 'product_name__3': 'Product_3', 'product_id__3': 'rm_003', 'in_stock__4': True, 'brand__4': 'Apple', 'rating__4': 3.6, 'category__4': 'Home&Kitchen', 'price__4': 938.95, 'product_name__4': 'Product_4', 'product_id__4': 'rm_004', 'in_stock__5': True, 'brand__5': 'Brand Y', 'rating__5': 3.5, 'category__5': 'Books', 'price__5': 191.32, 'product_name__5': 'Product_5', 'product_id__5': 'rm_005', 'in_stock__6': True, 'brand__6': 'Samsung', 'rating__6': 3.4, 'category__6': 'Electronics', 'price__6': 340.59, 'product_name__6': 'Product_6', 'product_id__6': 'rm_006', 'in_stock__7': True ... 1300 parameters truncated ... 'product_id__192': 'rm_192', 'in_stock__193': True, 'brand__193': 'Brand X', 'rating__193': 4.8, 'category__193': 'Food', 'price__193': 1010.31, 'product_name__193': 'Product_193', 'product_id__193': 'rm_193', 'in_stock__194': True, 'brand__194': 'Brand Y', 'rating__194': 3.5, 'category__194': 'Books', 'price__194': 721.1, 'product_name__194': 'Product_194', 'product_id__194': 'rm_194', 'in_stock__195': True, 'brand__195': 'Dmart', 'rating__195': 3.6, 'category__195': 'Apparel', 'price__195': 1204.76, 'product_name__195': 'Product_195', 'product_id__195': 'rm_195', 'in_stock__196': True, 'brand__196': 'Brand Y', 'rating__196': 4.7, 'category__196': 'Home&Kitchen', 'price__196': 146.57, 'product_name__196': 'Product_196', 'product_id__196': 'rm_196', 'in_stock__197': True, 'brand__197': 'Brand X', 'rating__197': 4.9, 'category__197': 'Books', 'price__197': 1325.33, 'product_name__197': 'Product_197', 'product_id__197': 'rm_197', 'in_stock__198': True, 'brand__198': 'Dmart', 'rating__198': 3.8, 'category__198': 'Apparel', 'price__198': 456.35, 'product_name__198': 'Product_198', 'product_id__198': 'rm_198', 'in_stock__199': True, 'brand__199': 'Brand Y', 'rating__199': 3.0, 'category__199': 'Apparel', 'price__199': 697.29, 'product_name__199': 'Product_199', 'product_id__199': 'rm_199'}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2026-01-09 12:48:32,437 [INFO] Ingestor: Reading product_catalog from C:\Users\avima\DM4ML\recomart\raw_data\batch\product_catalog\2026\01\09
+2026-01-09 12:48:32,557 [INFO] Ingestor: Audit: Successfully loaded 200 rows to 'product_catalog'
+2026-01-09 12:48:32,564 [INFO] Ingestor: Reading purchase_history from C:\Users\avima\DM4ML\recomart\raw_data\batch\purchase_history\2026\01\09
+2026-01-09 12:48:34,788 [INFO] Ingestor: Audit: Successfully loaded 20000 rows to 'purchase_history'
+2026-01-09 12:48:34,788 [ERROR] Ingestor: Pipeline failed: name 'fetch_external_sentiment_api' is not defined
+2026-01-09 12:52:39,268 [INFO] Ingestor: Reading product_catalog from C:\Users\avima\DM4ML\recomart\raw_data\batch\product_catalog\2026\01\09
+2026-01-09 12:52:39,345 [INFO] Ingestor: Audit: Successfully loaded 200 rows to 'product_catalog'
+2026-01-09 12:52:39,361 [INFO] Ingestor: Reading purchase_history from C:\Users\avima\DM4ML\recomart\raw_data\batch\purchase_history\2026\01\09
+2026-01-09 12:52:42,089 [INFO] Ingestor: Audit: Successfully loaded 20000 rows to 'purchase_history'
+2026-01-09 12:52:42,090 [ERROR] Ingestor: Pipeline failed: name 'fetch_external_sentiment_api' is not defined
+2026-01-09 12:53:41,429 [INFO] Ingestor: Reading product_catalog from C:\Users\avima\DM4ML\recomart\raw_data\batch\product_catalog\2026\01\09
+2026-01-09 12:53:41,542 [INFO] Ingestor: Audit: Successfully loaded 200 rows to 'product_catalog'
+2026-01-09 12:53:41,542 [INFO] Ingestor: Reading purchase_history from C:\Users\avima\DM4ML\recomart\raw_data\batch\purchase_history\2026\01\09
+2026-01-09 12:53:43,655 [INFO] Ingestor: Audit: Successfully loaded 20000 rows to 'purchase_history'
+2026-01-09 12:53:43,657 [ERROR] Ingestor: Pipeline failed: name 'fetch_external_sentiment_api' is not defined
+2026-01-09 12:55:24,526 [INFO] Ingestor: Reading product_catalog from C:\Users\avima\DM4ML\recomart\raw_data\batch\product_catalog\2026\01\09
+2026-01-09 12:55:24,739 [INFO] Ingestor: Audit: Successfully loaded 200 rows to 'product_catalog'
+2026-01-09 12:55:24,739 [INFO] Ingestor: Reading purchase_history from C:\Users\avima\DM4ML\recomart\raw_data\batch\purchase_history\2026\01\09
+2026-01-09 12:55:27,023 [INFO] Ingestor: Audit: Successfully loaded 20000 rows to 'purchase_history'
+2026-01-09 12:55:27,023 [ERROR] Ingestor: Pipeline failed: name 'fetch_external_sentiment_api' is not defined
+2026-01-09 13:07:39,183 [INFO] Ingestor: Reading product_catalog from C:\Users\avima\DM4ML\recomart\raw_data\batch\product_catalog\2026\01\09
+2026-01-09 13:07:39,343 [INFO] Ingestor: Audit: Successfully loaded 200 rows to 'product_catalog'
+2026-01-09 13:07:39,343 [INFO] Ingestor: Reading purchase_history from C:\Users\avima\DM4ML\recomart\raw_data\batch\purchase_history\2026\01\09
+2026-01-09 13:07:41,801 [INFO] Ingestor: Audit: Successfully loaded 20000 rows to 'purchase_history'
+2026-01-09 13:07:41,803 [INFO] Ingestor: Reading sentiment API from C:\Users\avima\DM4ML\recomart\raw_data\API\external_sentiments\2026\01\09
+2026-01-09 13:07:41,854 [INFO] Ingestor: Audit: Successfully loaded 200 rows to 'external_sentiments'
+2026-01-09 13:07:41,855 [INFO] Ingestor: Pipeline completed successfully.
+2026-01-09 13:09:39,083 [INFO] Ingestor: Reading product_catalog from C:\Users\avima\DM4ML\recomart\raw_data\batch\product_catalog\2026\01\09
+2026-01-09 13:09:39,192 [INFO] Ingestor: Audit: Successfully loaded 200 rows to 'product_catalog'
+2026-01-09 13:09:39,206 [INFO] Ingestor: Reading purchase_history from C:\Users\avima\DM4ML\recomart\raw_data\batch\purchase_history\2026\01\09
+2026-01-09 13:09:41,612 [INFO] Ingestor: Audit: Successfully loaded 20000 rows to 'purchase_history'
+2026-01-09 13:09:41,615 [INFO] Ingestor: Reading sentiment API from C:\Users\avima\DM4ML\recomart\raw_data\API\external_sentiments\2026\01\09
+2026-01-09 13:09:41,648 [INFO] Ingestor: Audit: Successfully loaded 200 rows to 'external_sentiments'
+2026-01-09 13:09:41,648 [INFO] Ingestor: Pipeline completed successfully.
+2026-01-09 13:56:22,109 [INFO] Ingestor: Reading product_catalog from C:\Users\avima\DM4ML\recomart\raw_data\batch\product_catalog\2026\01\09
+2026-01-09 13:56:22,299 [INFO] Ingestor: Audit: Successfully loaded 200 rows to 'product_catalog'
+2026-01-09 13:56:22,299 [INFO] Ingestor: Reading purchase_history from C:\Users\avima\DM4ML\recomart\raw_data\batch\purchase_history\2026\01\09
+2026-01-09 13:56:26,060 [INFO] Ingestor: Audit: Successfully loaded 20000 rows to 'purchase_history'
+2026-01-09 13:56:26,060 [INFO] Ingestor: Reading sentiment API from C:\Users\avima\DM4ML\recomart\raw_data\API\external_sentiments\2026\01\09
+2026-01-09 13:56:26,105 [INFO] Ingestor: Audit: Successfully loaded 200 rows to 'external_sentiments'
+2026-01-09 13:56:26,105 [INFO] Ingestor: Pipeline completed successfully.
+2026-01-09 13:57:06,634 [INFO] Ingestor: Reading product_catalog from C:\Users\avima\DM4ML\recomart\raw_data\batch\product_catalog\2026\01\09
+2026-01-09 13:57:06,736 [INFO] Ingestor: Audit: Successfully loaded 200 rows to 'product_catalog'
+2026-01-09 13:57:06,736 [INFO] Ingestor: Reading purchase_history from C:\Users\avima\DM4ML\recomart\raw_data\batch\purchase_history\2026\01\09
+2026-01-09 13:57:09,229 [INFO] Ingestor: Audit: Successfully loaded 20000 rows to 'purchase_history'
+2026-01-09 13:57:09,232 [INFO] Ingestor: Reading sentiment API from C:\Users\avima\DM4ML\recomart\raw_data\API\external_sentiments\2026\01\09
+2026-01-09 13:57:09,262 [INFO] Ingestor: Audit: Successfully loaded 200 rows to 'external_sentiments'
+2026-01-09 13:57:09,262 [INFO] Ingestor: Pipeline completed successfully.
+2026-01-09 14:01:41,454 [INFO] Ingestor: Reading product_catalog from C:\Users\avima\DM4ML\recomart\raw_data\batch\product_catalog\2026\01\09
+2026-01-09 14:01:41,558 [INFO] Ingestor: Audit: Successfully loaded 200 rows to postgres table'product_catalog'
+2026-01-09 14:01:41,560 [INFO] Ingestor: Reading purchase_history from C:\Users\avima\DM4ML\recomart\raw_data\batch\purchase_history\2026\01\09
+2026-01-09 14:01:43,908 [INFO] Ingestor: Audit: Successfully loaded 20000 rows to postgres table'purchase_history'
+2026-01-09 14:01:43,908 [INFO] Ingestor: Reading sentiment API from C:\Users\avima\DM4ML\recomart\raw_data\API\external_sentiments\2026\01\09
+2026-01-09 14:01:43,948 [INFO] Ingestor: Audit: Successfully loaded 200 rows to postgres table'external_sentiments'
+2026-01-09 14:01:43,948 [INFO] Ingestor: Pipeline completed successfully.
+2026-01-09 14:08:09,184 [INFO] Ingestor: Reading product_catalog from C:\Users\avima\DM4ML\recomart\raw_data\batch\product_catalog\2026\01\09
+2026-01-09 14:08:09,275 [INFO] Ingestor: Audit: Successfully loaded 200 rows to postgres table 'product_catalog'
+2026-01-09 14:08:09,275 [INFO] Ingestor: Reading purchase_history from C:\Users\avima\DM4ML\recomart\raw_data\batch\purchase_history\2026\01\09
+2026-01-09 14:08:11,435 [INFO] Ingestor: Audit: Successfully loaded 20000 rows to postgres table 'purchase_history'
+2026-01-09 14:08:11,435 [INFO] Ingestor: Reading sentiment API from C:\Users\avima\DM4ML\recomart\raw_data\API\external_sentiments\2026\01\09
+2026-01-09 14:08:11,475 [INFO] Ingestor: Audit: Successfully loaded 200 rows to postgres table 'external_sentiments'
+2026-01-09 14:08:11,477 [INFO] Ingestor: Pipeline completed successfully.
+2026-01-09 15:17:23,607 [ERROR] ipykernel.comm: No such comm target registered: jupyter.widget.control
+2026-01-09 15:17:23,652 [WARNING] Comm: No such comm: c5063db5-6a8b-4a59-abca-cc485e46dafb
+2026-01-09 17:01:02,559 [ERROR] ipykernel.comm: No such comm target registered: jupyter.widget.control
+2026-01-09 17:01:02,570 [WARNING] Comm: No such comm: 64f07f21-a7c5-4c61-8453-ee4f9ffb7b68
+2026-01-09 18:38:54,813 [ERROR] ipykernel.comm: No such comm target registered: jupyter.widget.control
+2026-01-09 18:38:54,825 [WARNING] Comm: No such comm: 345d3b6a-e18c-4c8a-8462-2a1dd835708d
+2026-01-09 18:39:31,395 [ERROR] ipykernel.comm: No such comm target registered: jupyter.widget.control
+2026-01-09 18:39:31,395 [WARNING] Comm: No such comm: 1bac0ba3-71c6-41ac-abf2-c929ab053870
+2026-01-09 20:13:34,266 [ERROR] ipykernel.comm: No such comm target registered: jupyter.widget.control
+2026-01-09 20:13:34,274 [WARNING] Comm: No such comm: 10b820fd-7429-4377-a3b8-9c28ab7613af
+2026-01-09 20:54:29,355 [ERROR] ipykernel.comm: No such comm target registered: jupyter.widget.control
+2026-01-09 20:54:29,363 [WARNING] Comm: No such comm: 5029b358-d283-4728-b6d0-c0daf328ee40
+2026-01-12 19:20:01,807 [INFO] Ingestor: Reading product_catalog from C:\Users\avima\DM4ML\recomart\raw_data\batch\product_catalog\2026\01\12
+2026-01-12 19:20:02,052 [INFO] Ingestor: Audit: Successfully loaded 200 rows to postgres table 'product_catalog'
+2026-01-12 19:20:02,052 [INFO] Ingestor: Reading purchase_history from C:\Users\avima\DM4ML\recomart\raw_data\batch\purchase_history\2026\01\12
+2026-01-12 19:20:03,175 [INFO] Ingestor: Audit: Successfully loaded 20000 rows to postgres table 'purchase_history'
+2026-01-12 19:20:03,175 [INFO] Ingestor: Reading sentiment API from C:\Users\avima\DM4ML\recomart\raw_data\API\external_sentiments\2026\01\12
+2026-01-12 19:20:03,194 [INFO] Ingestor: Audit: Successfully loaded 200 rows to postgres table 'external_sentiments'
+2026-01-12 19:20:03,194 [INFO] Ingestor: Pipeline completed successfully.
+2026-01-12 19:23:49,463 [INFO] Ingestor: Reading product_catalog from C:\Users\avima\DM4ML\recomart\raw_data\batch\product_catalog\2026\01\12
+2026-01-12 19:23:49,559 [INFO] Ingestor: Audit: Successfully loaded 200 rows to postgres table 'product_catalog'
+2026-01-12 19:23:49,560 [INFO] Ingestor: Reading purchase_history from C:\Users\avima\DM4ML\recomart\raw_data\batch\purchase_history\2026\01\12
+2026-01-12 19:23:50,621 [INFO] Ingestor: Audit: Successfully loaded 20000 rows to postgres table 'purchase_history'
+2026-01-12 19:23:50,622 [INFO] Ingestor: Reading sentiment API from C:\Users\avima\DM4ML\recomart\raw_data\API\external_sentiments\2026\01\12
+2026-01-12 19:23:50,642 [INFO] Ingestor: Audit: Successfully loaded 200 rows to postgres table 'external_sentiments'
+2026-01-12 19:23:50,642 [INFO] Ingestor: Pipeline completed successfully.
+2026-01-13 13:15:43,265 [INFO] Ingestor: Reading product_catalog from C:\Users\avima\DM4ML\recomart\raw_data\batch\product_catalog\2026\01\13
+2026-01-13 13:15:43,539 [INFO] Ingestor: Audit: Successfully loaded 300 rows to postgres table 'product_catalog'
+2026-01-13 13:15:43,540 [INFO] Ingestor: Reading purchase_history from C:\Users\avima\DM4ML\recomart\raw_data\batch\purchase_history\2026\01\13
+2026-01-13 13:15:51,962 [INFO] Ingestor: Audit: Successfully loaded 50000 rows to postgres table 'purchase_history'
+2026-01-13 13:15:51,962 [INFO] Ingestor: Reading sentiment API from C:\Users\avima\DM4ML\recomart\raw_data\API\external_sentiments\2026\01\13
+2026-01-13 13:15:52,028 [INFO] Ingestor: Audit: Successfully loaded 300 rows to postgres table 'external_sentiments'
+2026-01-13 13:15:52,028 [INFO] Ingestor: Pipeline completed successfully.
+2026-01-13 13:16:33,547 [INFO] Ingestor: Reading product_catalog from C:\Users\avima\DM4ML\recomart\raw_data\batch\product_catalog\2026\01\13
+2026-01-13 13:16:33,707 [INFO] Ingestor: Audit: Successfully loaded 300 rows to postgres table 'product_catalog'
+2026-01-13 13:16:33,707 [INFO] Ingestor: Reading purchase_history from C:\Users\avima\DM4ML\recomart\raw_data\batch\purchase_history\2026\01\13
+2026-01-13 13:16:46,152 [INFO] Ingestor: Audit: Successfully loaded 50000 rows to postgres table 'purchase_history'
+2026-01-13 13:16:46,153 [INFO] Ingestor: Reading sentiment API from C:\Users\avima\DM4ML\recomart\raw_data\API\external_sentiments\2026\01\13
+2026-01-13 13:16:46,266 [INFO] Ingestor: Audit: Successfully loaded 300 rows to postgres table 'external_sentiments'
+2026-01-13 13:16:46,267 [INFO] Ingestor: Pipeline completed successfully.
+2026-01-13 13:20:03,350 [INFO] Ingestor: Reading product_catalog from C:\Users\avima\DM4ML\recomart\raw_data\batch\product_catalog\2026\01\13
+2026-01-13 13:20:03,517 [INFO] Ingestor: Audit: Successfully loaded 300 rows to postgres table 'product_catalog'
+2026-01-13 13:20:03,518 [INFO] Ingestor: Reading purchase_history from C:\Users\avima\DM4ML\recomart\raw_data\batch\purchase_history\2026\01\13
+2026-01-13 13:20:12,416 [INFO] Ingestor: Audit: Successfully loaded 50000 rows to postgres table 'purchase_history'
+2026-01-13 13:20:12,416 [INFO] Ingestor: Reading sentiment API from C:\Users\avima\DM4ML\recomart\raw_data\API\external_sentiments\2026\01\13
+2026-01-13 13:20:12,488 [INFO] Ingestor: Audit: Successfully loaded 300 rows to postgres table 'external_sentiments'
+2026-01-13 13:20:12,488 [INFO] Ingestor: Pipeline completed successfully.
+2026-01-13 15:19:00,654 [INFO] Ingestor: Reading product_catalog from C:\Users\avima\DM4ML\recomart\raw_data\batch\product_catalog\2026\01\13
+2026-01-13 15:19:00,906 [INFO] Ingestor: Audit: Successfully loaded 300 rows to postgres table 'product_catalog'
+2026-01-13 15:19:00,906 [INFO] Ingestor: Reading purchase_history from C:\Users\avima\DM4ML\recomart\raw_data\batch\purchase_history\2026\01\13
+2026-01-13 15:19:11,077 [INFO] Ingestor: Audit: Successfully loaded 50000 rows to postgres table 'purchase_history'
+2026-01-13 15:19:11,078 [INFO] Ingestor: Reading sentiment API from C:\Users\avima\DM4ML\recomart\raw_data\API\external_sentiments\2026\01\13
+2026-01-13 15:19:11,160 [INFO] Ingestor: Audit: Successfully loaded 300 rows to postgres table 'external_sentiments'
+2026-01-13 15:19:11,160 [INFO] Ingestor: Pipeline completed successfully.
+2026-01-13 16:56:28,513 [INFO] Ingestor: Reading product_catalog from C:\Users\avima\DM4ML\recomart\raw_data\batch\product_catalog\2026\01\13
+2026-01-13 16:56:28,798 [INFO] Ingestor: Audit: Successfully loaded 300 rows to postgres table 'product_catalog'
+2026-01-13 16:56:28,799 [INFO] Ingestor: Reading purchase_history from C:\Users\avima\DM4ML\recomart\raw_data\batch\purchase_history\2026\01\13
+2026-01-13 16:56:38,807 [INFO] Ingestor: Audit: Successfully loaded 50000 rows to postgres table 'purchase_history'
+2026-01-13 16:56:38,808 [INFO] Ingestor: Reading sentiment API from C:\Users\avima\DM4ML\recomart\raw_data\API\external_sentiments\2026\01\13
+2026-01-13 16:56:38,895 [INFO] Ingestor: Audit: Successfully loaded 300 rows to postgres table 'external_sentiments'
+2026-01-13 16:56:38,895 [INFO] Ingestor: Pipeline completed successfully.
+2026-01-17 15:24:30,177 [ERROR] Ingestor: Pipeline failed: Missing product_catalog file: C:\Users\avima\DM4ML\recomart\raw_data\batch\product_catalog\2026\01\17
+2026-01-17 15:27:23,666 [INFO] Ingestor: Reading product_catalog from C:\Users\avima\DM4ML\recomart\raw_data\batch\product_catalog\2026\01\17
+2026-01-17 15:27:23,787 [INFO] Ingestor: Audit: Successfully loaded 200 rows to postgres table 'product_catalog'
+2026-01-17 15:27:23,790 [INFO] Ingestor: Reading purchase_history from C:\Users\avima\DM4ML\recomart\raw_data\batch\purchase_history\2026\01\17
+2026-01-17 15:27:29,070 [INFO] Ingestor: Audit: Successfully loaded 20000 rows to postgres table 'purchase_history'
+2026-01-17 15:27:29,073 [INFO] Ingestor: Reading sentiment API from C:\Users\avima\DM4ML\recomart\raw_data\API\external_sentiments\2026\01\17
+2026-01-17 15:27:29,134 [INFO] Ingestor: Audit: Successfully loaded 200 rows to postgres table 'external_sentiments'
+2026-01-17 15:27:29,136 [INFO] Ingestor: Pipeline completed successfully.
+2026-01-17 15:39:42,534 [INFO] Ingestor: Audit: Successfully loaded 20 rows to postgres table 'clickstream_logs'
+2026-01-17 15:39:42,539 [INFO] Ingestor: Reading product_catalog from C:\Users\avima\DM4ML\recomart\raw_data\batch\product_catalog\2026\01\17
+2026-01-17 15:39:42,588 [INFO] Ingestor: Audit: Successfully loaded 200 rows to postgres table 'product_catalog'
+2026-01-17 15:39:42,592 [INFO] Ingestor: Reading purchase_history from C:\Users\avima\DM4ML\recomart\raw_data\batch\purchase_history\2026\01\17
+2026-01-17 15:39:45,657 [INFO] Ingestor: Audit: Successfully loaded 20000 rows to postgres table 'purchase_history'
+2026-01-17 15:39:45,660 [INFO] Ingestor: Reading sentiment API from C:\Users\avima\DM4ML\recomart\raw_data\API\external_sentiments\2026\01\17
+2026-01-17 15:39:45,693 [INFO] Ingestor: Audit: Successfully loaded 200 rows to postgres table 'external_sentiments'
+2026-01-17 15:39:45,696 [INFO] Ingestor: Pipeline completed successfully.
+2026-01-17 15:43:39,723 [INFO] Ingestor: Audit: Successfully loaded 20 rows to postgres table 'clickstream_logs'
+2026-01-17 15:43:39,725 [INFO] Ingestor: Reading product_catalog from C:\Users\avima\DM4ML\recomart\raw_data\batch\product_catalog\2026\01\17
+2026-01-17 15:43:39,769 [INFO] Ingestor: Audit: Successfully loaded 200 rows to postgres table 'product_catalog'
+2026-01-17 15:43:39,775 [INFO] Ingestor: Reading purchase_history from C:\Users\avima\DM4ML\recomart\raw_data\batch\purchase_history\2026\01\17
+2026-01-17 15:43:42,650 [INFO] Ingestor: Audit: Successfully loaded 20000 rows to postgres table 'purchase_history'
+2026-01-17 15:43:42,651 [INFO] Ingestor: Reading sentiment API from C:\Users\avima\DM4ML\recomart\raw_data\API\external_sentiments\2026\01\17
+2026-01-17 15:43:42,674 [INFO] Ingestor: Audit: Successfully loaded 200 rows to postgres table 'external_sentiments'
+2026-01-17 15:43:42,677 [INFO] Ingestor: Pipeline completed successfully.
+2026-01-17 15:52:12,967 [INFO] Ingestor: Reading clickstream data from C:\Users\avima\DM4ML\recomart\raw_data\streaming\clickstream_logs\2026\01\17
+2026-01-17 15:52:13,129 [INFO] Ingestor: Audit: Successfully loaded 20 rows to postgres table 'clickstream_logs'
+2026-01-17 15:52:13,133 [INFO] Ingestor: Reading product_catalog from C:\Users\avima\DM4ML\recomart\raw_data\batch\product_catalog\2026\01\17
+2026-01-17 15:52:13,191 [INFO] Ingestor: Audit: Successfully loaded 200 rows to postgres table 'product_catalog'
+2026-01-17 15:52:13,193 [INFO] Ingestor: Reading purchase_history from C:\Users\avima\DM4ML\recomart\raw_data\batch\purchase_history\2026\01\17
+2026-01-17 15:52:16,593 [INFO] Ingestor: Audit: Successfully loaded 20000 rows to postgres table 'purchase_history'
+2026-01-17 15:52:16,594 [INFO] Ingestor: Reading sentiment API from C:\Users\avima\DM4ML\recomart\raw_data\API\external_sentiments\2026\01\17
+2026-01-17 15:52:16,621 [INFO] Ingestor: Audit: Successfully loaded 200 rows to postgres table 'external_sentiments'
+2026-01-17 15:52:16,623 [INFO] Ingestor: Pipeline completed successfully.
+2026-01-17 15:58:18,203 [INFO] Ingestor: Reading product_catalog from C:\Users\avima\DM4ML\recomart\raw_data\batch\product_catalog\2026\01\17
+2026-01-17 15:58:18,409 [INFO] Ingestor: Audit: Successfully loaded 200 rows to postgres table 'product_catalog'
+2026-01-17 15:58:18,409 [INFO] Ingestor: Reading purchase_history from C:\Users\avima\DM4ML\recomart\raw_data\batch\purchase_history\2026\01\17
+2026-01-17 15:58:22,756 [INFO] Ingestor: Audit: Successfully loaded 20000 rows to postgres table 'purchase_history'
+2026-01-17 15:58:22,768 [INFO] Ingestor: Reading sentiment API from C:\Users\avima\DM4ML\recomart\raw_data\API\external_sentiments\2026\01\17
+2026-01-17 15:58:22,782 [INFO] Ingestor: Audit: Successfully loaded 200 rows to postgres table 'external_sentiments'
+2026-01-17 15:58:22,782 [INFO] Ingestor: Pipeline completed successfully.
+2026-01-17 15:58:53,063 [INFO] Ingestor: Reading clickstream data from C:\Users\avima\DM4ML\recomart\raw_data\streaming\clickstream_logs\2026\01\17
+2026-01-17 15:58:53,224 [INFO] Ingestor: Audit: Successfully loaded 20 rows to postgres table 'clickstream_logs'
+2026-01-17 15:58:53,234 [INFO] Ingestor: Reading product_catalog from C:\Users\avima\DM4ML\recomart\raw_data\batch\product_catalog\2026\01\17
+2026-01-17 15:58:53,268 [INFO] Ingestor: Audit: Successfully loaded 200 rows to postgres table 'product_catalog'
+2026-01-17 15:58:53,276 [INFO] Ingestor: Reading purchase_history from C:\Users\avima\DM4ML\recomart\raw_data\batch\purchase_history\2026\01\17
+2026-01-17 15:58:56,037 [INFO] Ingestor: Audit: Successfully loaded 20000 rows to postgres table 'purchase_history'
+2026-01-17 15:58:56,038 [INFO] Ingestor: Reading sentiment API from C:\Users\avima\DM4ML\recomart\raw_data\API\external_sentiments\2026\01\17
+2026-01-17 15:58:56,050 [INFO] Ingestor: Audit: Successfully loaded 200 rows to postgres table 'external_sentiments'
+2026-01-17 15:58:56,051 [INFO] Ingestor: Pipeline completed successfully.
+2026-01-17 16:37:19,676 [INFO] Ingestor: Reading clickstream data from C:\Users\avima\DM4ML\recomart\raw_data\streaming\clickstream_logs\2026\01\17
+2026-01-17 16:37:19,922 [INFO] Ingestor: Audit: Successfully loaded 20 rows to postgres table 'clickstream_logs'
+2026-01-17 16:37:19,933 [INFO] Ingestor: Reading product_catalog from C:\Users\avima\DM4ML\recomart\raw_data\batch\product_catalog\2026\01\17
+2026-01-17 16:37:19,987 [INFO] Ingestor: Audit: Successfully loaded 200 rows to postgres table 'product_catalog'
+2026-01-17 16:37:19,998 [INFO] Ingestor: Reading purchase_history from C:\Users\avima\DM4ML\recomart\raw_data\batch\purchase_history\2026\01\17
+2026-01-17 16:37:22,966 [INFO] Ingestor: Audit: Successfully loaded 20000 rows to postgres table 'purchase_history'
+2026-01-17 16:37:22,969 [INFO] Ingestor: Reading sentiment API from C:\Users\avima\DM4ML\recomart\raw_data\API\external_sentiments\2026\01\17
+2026-01-17 16:37:22,992 [INFO] Ingestor: Audit: Successfully loaded 200 rows to postgres table 'external_sentiments'
+2026-01-17 16:37:22,992 [INFO] Ingestor: Pipeline completed successfully.
+2026-01-17 16:37:23,020 [ERROR] Ingestor: Raw data movement failed: name 'shutil' is not defined
+2026-01-17 16:38:02,797 [INFO] Ingestor: Reading clickstream data from C:\Users\avima\DM4ML\recomart\raw_data\streaming\clickstream_logs\2026\01\17
+2026-01-17 16:38:02,929 [INFO] Ingestor: Audit: Successfully loaded 20 rows to postgres table 'clickstream_logs'
+2026-01-17 16:38:02,934 [INFO] Ingestor: Reading product_catalog from C:\Users\avima\DM4ML\recomart\raw_data\batch\product_catalog\2026\01\17
+2026-01-17 16:38:02,974 [INFO] Ingestor: Audit: Successfully loaded 200 rows to postgres table 'product_catalog'
+2026-01-17 16:38:02,981 [INFO] Ingestor: Reading purchase_history from C:\Users\avima\DM4ML\recomart\raw_data\batch\purchase_history\2026\01\17
+2026-01-17 16:38:07,059 [INFO] Ingestor: Audit: Successfully loaded 20000 rows to postgres table 'purchase_history'
+2026-01-17 16:38:07,059 [INFO] Ingestor: Reading sentiment API from C:\Users\avima\DM4ML\recomart\raw_data\API\external_sentiments\2026\01\17
+2026-01-17 16:38:07,091 [INFO] Ingestor: Audit: Successfully loaded 200 rows to postgres table 'external_sentiments'
+2026-01-17 16:38:07,091 [INFO] Ingestor: Pipeline completed successfully.
+2026-01-17 16:38:07,127 [ERROR] Ingestor: Raw data movement failed: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\avima\\DM4ML\\recomart\\raw_data\\streaming\\clickstream_logs\\2026\\01\\17\\clickstreamdata_1.json'
+2026-01-17 16:38:59,802 [INFO] Ingestor: Reading clickstream data from C:\Users\avima\DM4ML\recomart\raw_data\streaming\clickstream_logs\2026\01\17
+2026-01-17 16:38:59,895 [INFO] Ingestor: Audit: Successfully loaded 20 rows to postgres table 'clickstream_logs'
+2026-01-17 16:38:59,896 [ERROR] Ingestor: Pipeline failed: Missing product_catalog file: C:\Users\avima\DM4ML\recomart\raw_data\batch\product_catalog\2026\01\17
+2026-01-17 16:41:02,053 [INFO] Ingestor: Reading clickstream data from C:\Users\avima\DM4ML\recomart\raw_data\streaming\clickstream_logs\2026\01\17
+2026-01-17 16:41:02,149 [INFO] Ingestor: Audit: Successfully loaded 20 rows to postgres table 'clickstream_logs'
+2026-01-17 16:41:02,149 [INFO] Ingestor: Reading product_catalog from C:\Users\avima\DM4ML\recomart\raw_data\batch\product_catalog\2026\01\17
+2026-01-17 16:41:02,210 [INFO] Ingestor: Audit: Successfully loaded 200 rows to postgres table 'product_catalog'
+2026-01-17 16:41:02,212 [INFO] Ingestor: Reading purchase_history from C:\Users\avima\DM4ML\recomart\raw_data\batch\purchase_history\2026\01\17
+2026-01-17 16:41:04,742 [INFO] Ingestor: Audit: Successfully loaded 20000 rows to postgres table 'purchase_history'
+2026-01-17 16:41:04,742 [INFO] Ingestor: Reading sentiment API from C:\Users\avima\DM4ML\recomart\raw_data\API\external_sentiments\2026\01\17
+2026-01-17 16:41:04,786 [INFO] Ingestor: Audit: Successfully loaded 200 rows to postgres table 'external_sentiments'
+2026-01-17 16:41:04,786 [INFO] Ingestor: Pipeline completed successfully.
+2026-01-17 16:41:04,890 [INFO] Ingestor: Raw data movement completed successfully.
+2026-01-17 16:55:07,045 [INFO] Ingestor: Reading clickstream data from C:\Users\avima\DM4ML\recomart\raw_data\streaming\clickstream_logs\2026\01\17
+2026-01-17 16:56:03,032 [INFO] Ingestor: Reading clickstream data from C:\Users\avima\DM4ML\recomart\raw_data\streaming\clickstream_logs\2026\01\17
+2026-01-17 16:56:03,195 [INFO] Ingestor: Audit: Successfully loaded 20 rows to postgres table 'clickstream_logs'
+2026-01-17 16:56:03,197 [ERROR] Ingestor: Pipeline failed: Missing product_catalog file: C:\Users\avima\DM4ML\recomart\raw_data\batch\product_catalog\2026\01\17
+2026-01-17 16:58:30,541 [INFO] Ingestor: Reading clickstream data from C:\Users\avima\DM4ML\recomart\raw_data\streaming\clickstream_logs\2026\01\17
+2026-01-17 16:58:30,637 [INFO] Ingestor: Audit: Successfully loaded 20 rows to postgres table 'clickstream_logs'
+2026-01-17 16:58:30,637 [INFO] Ingestor: Reading product_catalog from C:\Users\avima\DM4ML\recomart\raw_data\batch\product_catalog\2026\01\17
+2026-01-17 16:58:30,681 [INFO] Ingestor: Audit: Successfully loaded 200 rows to postgres table 'product_catalog'
+2026-01-17 16:58:30,689 [INFO] Ingestor: Reading purchase_history from C:\Users\avima\DM4ML\recomart\raw_data\batch\purchase_history\2026\01\17
+2026-01-17 16:58:33,439 [INFO] Ingestor: Audit: Successfully loaded 20000 rows to postgres table 'purchase_history'
+2026-01-17 16:58:33,439 [INFO] Ingestor: Reading sentiment API from C:\Users\avima\DM4ML\recomart\raw_data\API\external_sentiments\2026\01\17
+2026-01-17 16:58:33,453 [INFO] Ingestor: Audit: Successfully loaded 200 rows to postgres table 'external_sentiments'
+2026-01-17 16:58:33,461 [INFO] Ingestor: Pipeline completed successfully.
+2026-01-17 16:58:33,472 [INFO] Ingestor: Archived: product_catalog.csv -> product_catalog_20260117.csv
+2026-01-17 16:58:33,480 [INFO] Ingestor: Archived: purchase_history.csv -> purchase_history_20260117.csv
+2026-01-17 16:58:33,485 [INFO] Ingestor: Archived: external_sentiments.csv -> external_sentiments_20260117.csv
+2026-01-17 16:58:33,489 [INFO] Ingestor: Archived: clickstreamdata_1.json -> clickstreamdata_1_20260117.json
+2026-01-17 16:58:33,489 [INFO] Ingestor: Raw data movement completed successfully.
+2026-01-21 12:50:29,580 [ERROR] ipykernel.comm: No such comm target registered: jupyter.widget.control
+2026-01-21 12:50:29,616 [WARNING] Comm: No such comm: b67566e6-0b9e-4052-9bb4-fca7d25d7a7b
+2026-01-21 16:39:35,370 [ERROR] ipykernel.comm: No such comm target registered: jupyter.widget.control
+2026-01-21 16:39:35,399 [WARNING] Comm: No such comm: ee8a6450-7bd8-447b-8668-d5f403701518
+2026-01-21 17:23:58,944 [ERROR] ipykernel.comm: No such comm target registered: jupyter.widget.control
+2026-01-21 17:23:58,954 [WARNING] Comm: No such comm: 76ad95e2-78a7-41d4-b8f2-b7aaed276e20
+2026-01-21 22:57:09,746 [ERROR] ipykernel.comm: No such comm target registered: jupyter.widget.control
+2026-01-21 22:57:09,761 [WARNING] Comm: No such comm: 214d4a82-42f0-4503-9704-ee33f8f00da3
+2026-01-22 03:33:12,609 [ERROR] ipykernel.comm: No such comm target registered: jupyter.widget.control
+2026-01-22 03:33:12,633 [WARNING] Comm: No such comm: fd745c24-b9e6-4947-a0d6-24c86d175ef1
+2026-01-22 07:02:12,195 [ERROR] ipykernel.comm: No such comm target registered: jupyter.widget.control
+2026-01-22 07:02:12,207 [WARNING] Comm: No such comm: 7624f16c-7bec-4535-8497-fc85c4c02142
+2026-01-26 11:25:42,006 [INFO] Ingestor: Reading clickstream data from C:\Users\avima\DM4ML\recomart\raw_data\streaming\clickstream_logs\2026\01\26
+2026-01-26 11:25:42,380 [INFO] Ingestor: Audit: Successfully loaded 30 rows to postgres table 'clickstream_logs'
+2026-01-26 11:25:42,381 [INFO] Ingestor: Reading product_catalog from C:\Users\avima\DM4ML\recomart\raw_data\batch\product_catalog\2026\01\26
+2026-01-26 11:25:42,453 [INFO] Ingestor: Audit: Successfully loaded 1000 rows to postgres table 'product_catalog'
+2026-01-26 11:25:42,454 [INFO] Ingestor: Reading purchase_history from C:\Users\avima\DM4ML\recomart\raw_data\batch\purchase_history\2026\01\26
+2026-01-26 11:26:09,052 [INFO] Ingestor: Audit: Successfully loaded 20000 rows to postgres table 'purchase_history'
+2026-01-26 11:26:09,053 [INFO] Ingestor: Reading sentiment API from C:\Users\avima\DM4ML\recomart\raw_data\API\external_sentiments\2026\01\26
+2026-01-26 11:26:09,126 [INFO] Ingestor: Audit: Successfully loaded 1000 rows to postgres table 'external_sentiments'
+2026-01-26 11:26:09,126 [INFO] Ingestor: Pipeline completed successfully.
+2026-01-26 11:26:09,167 [INFO] Ingestor: Archived: product_catalog.csv -> product_catalog_20260126.csv
+2026-01-26 11:26:09,353 [INFO] Ingestor: Archived: purchase_history.csv -> purchase_history_20260126.csv
+2026-01-26 11:26:09,357 [INFO] Ingestor: Archived: external_sentiments.csv -> external_sentiments_20260126.csv
+2026-01-26 11:26:09,361 [INFO] Ingestor: Archived: clickstreamdata_1.json -> clickstreamdata_1_20260126.json
+2026-01-26 11:26:09,361 [INFO] Ingestor: Raw data movement completed successfully.
+2026-01-26 12:04:55,726 [INFO] Ingestor: Reading clickstream data from C:\Users\avima\DM4ML\recomart\raw_data\streaming\clickstream_logs\2026\01\26
+2026-01-26 12:04:55,896 [INFO] Ingestor: Audit: Successfully loaded 60 rows to postgres table 'clickstream_logs'
+2026-01-26 12:04:55,897 [INFO] Ingestor: Reading product_catalog from C:\Users\avima\DM4ML\recomart\raw_data\batch\product_catalog\2026\01\26
+2026-01-26 12:04:55,990 [INFO] Ingestor: Audit: Successfully loaded 1000 rows to postgres table 'product_catalog'
+2026-01-26 12:04:55,990 [INFO] Ingestor: Reading purchase_history from C:\Users\avima\DM4ML\recomart\raw_data\batch\purchase_history\2026\01\26
+2026-01-26 12:05:27,524 [INFO] Ingestor: Audit: Successfully loaded 20000 rows to postgres table 'purchase_history'
+2026-01-26 12:05:27,526 [INFO] Ingestor: Reading sentiment API from C:\Users\avima\DM4ML\recomart\raw_data\API\external_sentiments\2026\01\26
+2026-01-26 12:05:27,610 [INFO] Ingestor: Audit: Successfully loaded 1000 rows to postgres table 'external_sentiments'
+2026-01-26 12:05:27,611 [INFO] Ingestor: Pipeline completed successfully.
+2026-01-26 12:05:27,645 [INFO] Ingestor: Archived: product_catalog.csv -> product_catalog_20260126.csv
+2026-01-26 12:05:27,815 [INFO] Ingestor: Archived: purchase_history.csv -> purchase_history_20260126.csv
+2026-01-26 12:05:27,821 [INFO] Ingestor: Archived: external_sentiments.csv -> external_sentiments_20260126.csv
+2026-01-26 12:05:27,827 [INFO] Ingestor: Archived: clickstreamdata_1.json -> clickstreamdata_1_20260126.json
+2026-01-26 12:05:27,828 [INFO] Ingestor: Raw data movement completed successfully.
+2026-01-26 12:55:30,246 [INFO] Ingestor: Reading clickstream data from C:\Users\avima\DM4ML\recomart\raw_data\streaming\clickstream_logs\2026\01\26
+2026-01-26 12:55:30,454 [INFO] Ingestor: Audit: Successfully loaded 30 rows to postgres table 'clickstream_logs'
+2026-01-26 12:55:30,454 [INFO] Ingestor: Reading product_catalog from C:\Users\avima\DM4ML\recomart\raw_data\batch\product_catalog\2026\01\26
+2026-01-26 12:55:30,538 [INFO] Ingestor: Audit: Successfully loaded 1000 rows to postgres table 'product_catalog'
+2026-01-26 12:55:30,538 [INFO] Ingestor: Reading purchase_history from C:\Users\avima\DM4ML\recomart\raw_data\batch\purchase_history\2026\01\26
+2026-01-26 12:56:00,014 [INFO] Ingestor: Audit: Successfully loaded 20000 rows to postgres table 'purchase_history'
+2026-01-26 12:56:00,015 [INFO] Ingestor: Reading sentiment API from C:\Users\avima\DM4ML\recomart\raw_data\API\external_sentiments\2026\01\26
+2026-01-26 12:56:00,117 [INFO] Ingestor: Audit: Successfully loaded 1000 rows to postgres table 'external_sentiments'
+2026-01-26 12:56:00,117 [INFO] Ingestor: Pipeline completed successfully.
+2026-01-26 12:56:00,157 [INFO] Ingestor: Archived: product_catalog.csv -> product_catalog_20260126.csv
+2026-01-26 12:56:00,315 [INFO] Ingestor: Archived: purchase_history.csv -> purchase_history_20260126.csv
+2026-01-26 12:56:00,320 [INFO] Ingestor: Archived: external_sentiments.csv -> external_sentiments_20260126.csv
+2026-01-26 12:56:00,324 [INFO] Ingestor: Archived: clickstreamdata_1.json -> clickstreamdata_1_20260126.json
+2026-01-26 12:56:00,325 [INFO] Ingestor: Raw data movement completed successfully.
